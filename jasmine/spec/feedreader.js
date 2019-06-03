@@ -86,6 +86,7 @@ $(function() {
 
           // load second feed
           loadFeed(1, function() {
+               entriesEnd = $('.feed').html();
             done();
           })
         });
